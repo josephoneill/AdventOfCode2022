@@ -8,7 +8,6 @@ import (
 	"strings"
 )
 
-const playerCharASCIIOffset = int('X')
 const oppositionCharASCIIOffset = int('A')
 
 func main() {
