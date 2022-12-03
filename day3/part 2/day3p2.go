@@ -40,8 +40,8 @@ func main() {
 			continue
 		}
 
-		// Since we know there's only one commmon character betewen the two strings
-		// We can just loop through one until we find the same character in the other
+		// Since we know there's only one commmon character betewen the three strings
+		// We can just loop through one until we find the same character in the others
 		for i := 0; i < len(groupBadges[0]); i++ {
 			charAtIndexAsString := string(groupBadges[0][i])
 
